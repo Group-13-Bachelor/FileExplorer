@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>100</y>
+      <width>200</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Select Action&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deleteFileButton">
+    <property name="geometry">
+     <rect>
+      <x>585</x>
+      <y>210</y>
+      <width>110</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete File</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="newFolderButton">
+    <property name="geometry">
+     <rect>
+      <x>195</x>
+      <y>380</y>
+      <width>110</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>New Folder</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="newFileButton">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>210</y>
+      <width>110</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>New File</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="copyFileButton">
+    <property name="geometry">
+     <rect>
+      <x>425</x>
+      <y>210</y>
+      <width>110</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Copy File</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="copyFolderButton">
+    <property name="geometry">
+     <rect>
+      <x>355</x>
+      <y>380</y>
+      <width>110</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Copy Folder</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deleteFolderButton">
+    <property name="geometry">
+     <rect>
+      <x>515</x>
+      <y>380</y>
+      <width>110</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete Folder</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openFileButton">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>210</y>
+      <width>110</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open File</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
